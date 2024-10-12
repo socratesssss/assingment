@@ -528,24 +528,145 @@ body{
 }
 
 
-@media (max-device-width: 767px){
 
-    .header{position: relative;
-       
-        height: 155px;
-        width: 767pxpx;    
-        .logo{
-            margin-top: 24px;       
-        }  
-        .header-link{
-          display: none;
-            
-        }
-       
-          .header-button{
-            
-          }
-        }
+
+/* media----- */
+
+
+@media (max-device-width: 767px) {
+  .header {
+    height: 155px;
+    width: 767px;
+    .logo {
+      margin-top: 24px;
     }
+    .header-link {
+      display: none;
+    }
+
+    .header-button {
+    }
+  }
+
+  .form-section {
+    width: 767px;
+
+    .form {
+      height: fit-content;
+
+      & div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .country {
+        width: 60%;
+      }
+    }
+    .why {
+      margin-top: 80px;
+      display: flex;
+      margin-left: 300px;
+      width: 200px;
+    }
+  }
+
+  .yellow {
+    width: 767px;
+
+    & .yellow-div-1 {
+      & h1 {
+        font-size: 25px;
+        margin-left: 167px;
+      }
+    }
+  }
+
+  .features-section {
+    width: 767px;
+    .line {
+      display: none;
+    }
+    & h1 {
+      margin-left: 157px;
+    }
+
+    & button {
+      margin-left: 280px;
+    }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      margin-left: 230px;
+      width: fit-content;
+
+      & div {
+        margin-top: 70px;
+      }
+    }
+  }
+
+  .buy-sell-section {
+    width: 767px;
+    display: flex;
+    flex-direction: column;
+
+    .buy {
+      width: 100%;
+    }
+    .sell {
+      width: 100%;
+    }
+  }
+
+  .sing-up {
+    width: 767px;
+    & h1 {
+      font-size: 40px;
+      margin-left: 60px;
+      width: 645px;
+      text-align: center;
+      margin-top: 150px;
+    }
+    & button {
+      margin-left: 280px;
+    }
+  }
+
+  .black-section {
+    width: 767px;
+    height: fit-content;
+
+    .blkdv {
+      margin-left: 0;
+      & div {
+        margin: 100px 30px;
+        width: fit-content;
+
+        & h4 {
+          font-size: 22px;
+        }
+
+        & p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .footter {
+    width: 767px;
+
+    & p {
+      font-size: 13px;
+      margin: 10px 20px;
+    }
+  }
+}
+
+
+
+
 
 
